@@ -1,0 +1,12 @@
+class phone:
+    name="IPHONE"
+    company="APPLE"
+    def camera(self):
+        print("front:12megapixels")
+    def processor(self):
+        print("bionic chip")
+iphone15=phone()
+print(iphone15.name)
+print(iphone15.company)
+iphone15.camera()
+iphone15.processor()
